@@ -1,0 +1,33 @@
+/* originally written for Random Boggle Solver: http://jonathan-potter.github.io/boggle */
+
+/* HEADER */
+header {
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 1px solid #aaa;
+  background-color: white;
+  height: 60px;
+  line-height: 60px;
+}
+
+header * {
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+heading {
+  display: inline;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+nav {
+  float: right;
+}
+
+nav > ul > li {
+  display: inline;
+  font-size: 20px;
+}
