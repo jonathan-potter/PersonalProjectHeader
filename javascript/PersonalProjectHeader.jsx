@@ -1,5 +1,7 @@
 import React, {PropTypes} from 'react';
 
+import './PersonalProjectHeader.css'
+
 export default React.createClass({
   propTypes: {        
     title: PropTypes.string,

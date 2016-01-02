@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import PersonalProjectHeader from 'javascript/PersonalProjectHeader'
-
+/* load css libraries before any custom css */
 import 'dependencies/skeleton/css/normalize.css';
 import 'dependencies/skeleton/css/skeleton.css';
-import 'css/header.css'
+
+import PersonalProjectHeader from 'javascript/PersonalProjectHeader'
 
 const TITLE = 'Mandelbrot Set'
 const DEMO_URL = 'http://jonathan-potter.github.io/Mandelbrot'
