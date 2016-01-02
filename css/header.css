@@ -17,8 +17,7 @@ header * {
   color: inherit;
 }
 
-heading {
-  display: inline;
+.heading {
   font-weight: normal;
   letter-spacing: 2px;
 }
@@ -27,7 +26,19 @@ nav {
   float: right;
 }
 
-nav > ul > li {
-  display: inline;
+nav * {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
   font-size: 20px;
+}
+
+li *, li *:before {
+  display: inline-block;
+}
+
+.header-link {
+  padding: 20px 0;
 }
