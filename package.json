@@ -4,14 +4,14 @@
   "description": "header for personal projects....",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonathan-potter/Mandelbrot.git"
+    "url": "https://github.com/jonathan-potter/PersonalProjectHeader.git"
   },
   "author": "Jonathan Potter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonathan-potter/Mandelbrot/issues"
+    "url": "https://github.com/jonathan-potter/PersonalProjectHeader/issues"
   },
-  "homepage": "https://github.com/jonathan-potter/Mandelbrot",
+  "homepage": "https://github.com/jonathan-potter/PersonalProjectHeader",
   "dependencies": {
     "lodash": "^3.10.1",
     "react": "^0.14.2",
